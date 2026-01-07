@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login WebSite</title>
+        <style>
+            body{
+                margin: 0;
+                padding:0px;
+                height: 100vh;
+                background-image: url('loginimage.jpg');
+                background-size: cover;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Arial;
+            }
+            .btn{
+                width:20%;
+                border-radius: 10px;
+                padding: 10px 20px;
+                cursor: pointer;
+                border:2px solid black;    
+            }
+            .btn:hover{
+                background-color:  rgb(38, 147, 201);
+                color:rgb(255, 255, 255);
+                transition: 0.3s;
+            }
+            .box{
+                width: 400px;
+                height:450px;
+                text-align: center;
+                border-radius: 12px;
+                background-color:rgba(255, 255, 255, 0.15);
+                font-size:20px;
+                backdrop-filter: blur(5px);
+                align-content: center;
+            }
+            input{
+                width: 70%;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 20px;
+                border:2px solid rgb(255, 255, 255);
+                outline-color: rgb(0, 0, 0);
+            }
+        </style>
+</head>
+<body>
+    <div class="box">
+        <h2><u>Login OR Signin</u></h2>
+        <form>
+            <input type="text" placeholder="Username" required/><br><br>
+            <input type="password" placeholder="Password" required/><br><br>
+            <button class="btn" type="submit" value="Submit">Submit</button><br><br>
+            <a href="signup.html" style="color:rgb(255, 255, 255)" target="_parent">Signup</a>
+            <a href="forgot.com" style="color:rgb(22, 0, 215)">forgot password?</a>
+        </form>
+    </div>
+</body>
+</html>
